@@ -1,10 +1,10 @@
 # BUILD
 FROM jupyter/minimal-notebook
 
-#R-Base 
+## R-Base 
   version 3.3.1
 
-#R-packages
+## R-packages
     r-base=3.3.1 1
     r-irkernel=0.7
     r-plyr=1.8
@@ -24,7 +24,7 @@ FROM jupyter/minimal-notebook
     r-crayon=1.3
     r-randomforest=4.6
     
-#Bioconductor packages
+## Bioconductor packages
 
     annotate
     limma
@@ -49,7 +49,7 @@ FROM jupyter/minimal-notebook
     pathifier
     
     
-    ## Installation
+## Installation
 
 The image is built automatically by the docker automated build system. To get
 the latest version just pull it in docker.
