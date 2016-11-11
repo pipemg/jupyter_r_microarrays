@@ -26,24 +26,34 @@ FROM jupyter/minimal-notebook
     
 #Bioconductor packages
 
-   annotate
-   limma
-   affy
-   GEOquery
-   SVGAnnotation
-   affxparser
-   simpleaffy
-   hgu133a.db
-   hgu133a2.db
-   hgu133plus2.db
-   hugene10sttranscriptcluster.db
-   oligo
-   frma
-   hgu133afrmavecs
-   hgu133plus2frmavecs
-   hgu133plus2cdr
-   hgu133acdf
-   hugene10stv1cdf
-   arrayQualityMetrics
-   genefilter
-   pathifier
+    annotate
+    limma
+    affy
+    GEOquery
+    SVGAnnotation
+    affxparser
+    simpleaffy
+    hgu133a.db
+    hgu133a2.db
+    hgu133plus2.db
+    hugene10sttranscriptcluster.db
+    oligo
+    frma
+    hgu133afrmavecs
+    hgu133plus2frmavecs
+    hgu133plus2cdr
+    hgu133acdf
+    hugene10stv1cdf
+    arrayQualityMetrics
+    genefilter
+    pathifier
+    
+    
+    ## Installation
+
+The image is built automatically by the docker automated build system. To get
+the latest version just pull it in docker.
+
+```bash
+docker pull fmunoz/jupyter_r_microarrays
+```
